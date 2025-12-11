@@ -1,4 +1,4 @@
-
+﻿
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -173,7 +173,7 @@ struct BigNumber
 	}
 };
 
-void main()
+int main(void)
 {
 //	char	s1[] = "  -9876543";
 //	char	s2[32] ={0};
@@ -204,5 +204,5 @@ void main()
 
 	printf("%s\n", s5.t);
 	
+	return 0;
 }
-

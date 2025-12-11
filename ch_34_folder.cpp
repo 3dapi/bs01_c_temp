@@ -1,4 +1,4 @@
-
+﻿
 // Defined ShlObj.h
 //	#define CSIDL_DESKTOP                   0x0000
 //	#define CSIDL_INTERNET                  0x0001
@@ -57,7 +57,7 @@
 #include <stdio.h>
 
 
-void main()
+int main(void)
 {
 	char pBuffer[MAX_PATH];
 	char buf[1024];
@@ -86,4 +86,6 @@ void main()
 		SHGetSpecialFolderPath( NULL, pBuffer, i, 0); 
 		printf("%s\n", pBuffer); 
 	}
+	
+	return 0;
 }

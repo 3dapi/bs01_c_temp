@@ -1,9 +1,9 @@
-#include <string.h>
+﻿#include <string.h>
 #include <stdio.h>
 
 // Is it true that 'pbrk' means pointer break?
 //
-void main()
+int main(void)
 {
 	char str[] = "The 3 men and 2 boys ate 5 pigs\n";
 	char *r;
@@ -19,4 +19,5 @@ void main()
 	r = strpbrk( r, " 0123456789" );
 	printf( "4: %s\n", r );
 	
+	return 0;
 }

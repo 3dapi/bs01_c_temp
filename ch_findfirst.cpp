@@ -1,4 +1,4 @@
-
+﻿
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -211,7 +211,7 @@ int DgeFindFileList(const char* begin_dir)
 
 
 
-int main(int argc, char** argv)
+int main(void)
 {
 	printf("GCC File and Directory Find----------------------------\n\n");
 	LFindFileList("/Afew_work");

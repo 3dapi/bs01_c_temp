@@ -1,4 +1,4 @@
-
+﻿
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -86,7 +86,7 @@ char* MyStrtok(char **pOut, char *strToken, const char *strDelimit)
 }
 
 
-int main(int argc, char** argv)
+int main(void)
 {
 	char Msg[] = "A string\tof ,,,,,,tokens\nand some  more tokens";
 	char sep[] = " ,\t\n";

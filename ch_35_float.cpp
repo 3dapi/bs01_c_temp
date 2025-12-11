@@ -1,11 +1,11 @@
-
+﻿
 #include <stdio.h>
 #include <windows.h>
 
 
 union UFloat
 {
-	FLOAT	f;
+	float	f;
 	INT		n;
 
 	struct
@@ -28,14 +28,14 @@ union UFloat
 	};
 
 
-	UFloat(FLOAT _f) : f(_f){}
+	UFloat(float _f) : f(_f){}
 	UFloat(INT	 _n) : n(_n){}
 
 };
 
 
 
-void ConvertFloat(FLOAT f)
+void ConvertFloat(float f)
 {
 	UFloat	k =f;
 
@@ -58,13 +58,15 @@ void ConvertFloat(FLOAT f)
 
 
 
-void main()
+int main(void)
 {
-	FLOAT f=-123.456f;
+	float f=-123.456f;
 	ConvertFloat(f);
 
 	for(float a=-2.f; a<2.1f; a+=0.1f)
 	{
 		ConvertFloat(a);
 	}
+
+	return 0;
 }

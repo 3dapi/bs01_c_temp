@@ -1,9 +1,11 @@
-#include <windows.h>
+﻿#include <windows.h>
 #include <stdio.h>
 
-void main()
+int  main(void)
 {
 	__int64 x=900000000000000;
 
 	printf("%I64d\n", x);
+
+	return 0;
 }

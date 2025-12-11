@@ -1,4 +1,4 @@
-
+﻿
 
 #include <stdio.h>
 
@@ -38,7 +38,7 @@ void StrRev(const char* str)
 
 
 
-void main()
+int main(void)
 {
 	char p[] = "Hello world Welcome!!!";
 
@@ -50,4 +50,5 @@ void main()
 
 	printf("%s\n", p);
 
+	return 0;
 }

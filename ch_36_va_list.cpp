@@ -1,4 +1,4 @@
-
+﻿
 #include <stdio.h>
 #include <stdarg.h>
 
@@ -15,8 +15,9 @@ void MyPrintf(const char* format, ...)
 }
 
 
-void main()
+int main(void)
 {
 	MyPrintf("MyPrintf: %s %d\n", "Hello world", 100);
 
+	return 0;
 }

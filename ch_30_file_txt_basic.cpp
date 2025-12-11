@@ -1,7 +1,7 @@
-#include <stdio.h>
+﻿#include <stdio.h>
 #include <windows.h>
 
-int main()
+int main(void)
 {
 	FILE* fp1;
 	FILE* fp2;
@@ -47,5 +47,5 @@ int main()
 	fclose(fp1);
 	fclose(fp2);
 
-	return 1;
+	return 0;
 }

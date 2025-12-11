@@ -1,10 +1,10 @@
-#include <time.h>
+﻿#include <time.h>
 #include <stdio.h>
 #include <sys/types.h>
 #include <sys/timeb.h>
 #include <string.h>
 
-int main(int argc, char** argv)
+int main(void)
 {
 
 	char dgelog[260]={0};

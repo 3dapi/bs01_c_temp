@@ -1,4 +1,4 @@
-
+﻿
 #include <Windows.h>
 #include <stdio.h>
 
@@ -244,7 +244,7 @@ int DgeStr_Quot(char* Dst, const char* Src)
 
 
 
-int main(int argc, char** argv)
+int main(void)
 {
 	char	sBuf1[] ="llddddllasasdfasdfsld";
 

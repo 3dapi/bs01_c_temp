@@ -1,4 +1,4 @@
-
+﻿
 #include <stdio.h>
 
 void LcStr_TrimLeft(char* sBuf, const char *sTrm)
@@ -116,7 +116,7 @@ void LcStr_Trim(char* sBuf, const char *sTrm)
 }
 
 
-void main()
+int main(void)
 {
 	char str[] = "		,,   	1,	, 2 world 	,  , 		";
 
@@ -126,4 +126,6 @@ void main()
 	LcStr_Trim(str, "\t ,1world");
 
 	printf("%s\n", str);
+
+	return 0;
 }

@@ -1,4 +1,4 @@
-#include <stdio.h>
+﻿#include <stdio.h>
 #include <string.h>
 
 
@@ -50,7 +50,7 @@ int CheckSSL(int* pSSL)
 
 
 
-void main()
+int main(void)
 {
 	int hr = CheckSSL("1234567890123");
 	
@@ -62,4 +62,6 @@ void main()
 	{
 		printf(" False\n");
 	}
+
+	return 0;
 }

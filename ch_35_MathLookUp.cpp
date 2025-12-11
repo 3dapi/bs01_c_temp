@@ -1,4 +1,4 @@
-
+﻿
 #include <windows.h>
 #include <stdio.h>
 #include <stdlib.h>
@@ -172,7 +172,7 @@ DOUBLE LnMathLookUp::fA = 2./LNMATH_PI;
 DOUBLE LnMathLookUp::fB = -1;
 
 
-void main()
+int main(void)
 {
 	FILE * fp = fopen("Tst.txt", "wt");
 
@@ -216,4 +216,6 @@ void main()
 	fclose(fp);
 
 	c.Release();
+
+	return 0;
 }
